@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DE_Testing_Project
+namespace Dungeon_Explorer
 {
     /// <summary>
     /// the "gamestate" will be responsible for the remainder of the game and the chance of enemies appearing once they are implemented

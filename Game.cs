@@ -4,7 +4,7 @@ using System.Media;
 using System.Runtime.InteropServices;
 using static System.Net.Mime.MediaTypeNames;
 
-namespace DE_Testing_Project
+namespace Dungeon_Explorer
 {
     /// <summary>
     /// Represents the game logic and flow of the game

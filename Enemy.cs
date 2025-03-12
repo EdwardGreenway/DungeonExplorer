@@ -5,7 +5,7 @@ using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DE_Testing_Project
+namespace Dungeon_Explorer
 {
     /// <summary>
     /// the class for creating enemy objects, currently doesn't have a purpose as enemies have not been implemented into the main game loop

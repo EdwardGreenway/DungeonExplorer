@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DE_Testing_Project
+namespace Dungeon_Explorer
 {
     /// <summary>
     /// Player class is responsible for everything player related in the game

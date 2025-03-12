@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Security.Policy;
 
-namespace DE_Testing_Project
+namespace Dungeon_Explorer
 {
     /// <summary>
     /// Class that handles room creation
