@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FE35A2D4-F16B-43F2-A317-D033ABD5B6B3}</ProjectGuid>
+    <ProjectGuid>{B598F587-C65A-454C-AF86-47632212EF28}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>DungeonExplorer</RootNamespace>
     <AssemblyName>DungeonExplorer</AssemblyName>
@@ -43,11 +43,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Creature.cs" />
     <Compile Include="Game.cs" />
+    <Compile Include="GameMap.cs" />
+    <Compile Include="ICollect.cs" />
+    <Compile Include="IDamagable.cs" />
+    <Compile Include="Inventory.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="ItemCatalogue.cs" />
+    <Compile Include="Monster.cs" />
+    <Compile Include="MonsterCatalogue.cs" />
     <Compile Include="Player.cs" />
+    <Compile Include="Potion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Room.cs" />
+    <Compile Include="RoomCatalogue.cs" />
+    <Compile Include="Weapon.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

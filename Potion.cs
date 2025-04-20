@@ -7,11 +7,13 @@ using System.Threading.Tasks;
 
 namespace DungeonExplorer
 {
-    internal class Program
+    public class Potion : Item
     {
-        static void Main(string[] args)
+        public int HealingAmount { get; }
+
+        public Potion(string name, int quality, int healingAmount) : base(name, quality)
         {
-            Game.Start();
+            this.HealingAmount = healingAmount;
         }
     }
 }
