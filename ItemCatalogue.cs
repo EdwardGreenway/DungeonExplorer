@@ -16,14 +16,6 @@ namespace DungeonExplorer
     /// </summary>
     public class ItemCatalogue
     {
-        /// <summary>
-        /// The player has an inventory array for their weapons and potions
-        /// Useless item objects that only serve as placeholders for the empty space in the inventory are  declared first
-        /// 
-        /// All other items are sorted into an array based on their quality
-        /// Higher stats -> Higher quality item -> Dropped from higher difficulty enemy
-        /// </summary>
-
         public static Item[] Quality_0_Items { get; }
         public static Item[] Quality_1_Items { get; }
         public static Item[] Quality_2_Items { get; }
@@ -32,13 +24,6 @@ namespace DungeonExplorer
 
         static ItemCatalogue()
         {
-            /// <summary>
-            /// This class stores the items that the player can find in the game
-            /// Every item is assigned to a list, where they will be sorted into their array via LINQ/Lambda
-            /// The quality arrays will be assigned to enemies based on their "Difficulty"
-            /// Lower difficulty = worse items
-            /// Higher difficulty = better items
-            /// </summary>
 
             //Weapon: Name, Quality, Damage, Speed
             List<Item> items = new List<Item>();

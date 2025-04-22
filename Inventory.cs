@@ -9,6 +9,10 @@ using System.Xml.Serialization;
 
 namespace DungeonExplorer
 {
+    /// <summary>
+    /// This is the inventory class
+    /// It is the largest method in the program, containing all of the methods necessary for the inventory system
+    /// </summary>
     public class Inventory : ICollect
     {
         public Player Player { get; set; }

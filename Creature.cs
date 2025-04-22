@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace DungeonExplorer
 {
+    /// <summary>
+    /// This is the abstract creature class
+    /// Its properties will be inhertited by the player and monster classes
+    /// </summary>
     public abstract class Creature
     {
         protected string name;

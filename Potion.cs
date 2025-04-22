@@ -7,6 +7,11 @@ using System.Threading.Tasks;
 
 namespace DungeonExplorer
 {
+    /// <summary>
+    /// This class is a derivative of the abstract item class
+    /// It stores the properties for potions
+    /// Currently, healing potions are the only ones available
+    /// </summary>
     public class Potion : Item
     {
         public int HealingAmount { get; }

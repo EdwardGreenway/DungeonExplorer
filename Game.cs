@@ -9,6 +9,10 @@ using System.Xml.Serialization;
 
 namespace DungeonExplorer
 {
+    /// <summary>
+    /// This is the game class
+    /// It contains the playing logic for moving throught rooms of the dungeon and triggering the methods for playing the game
+    /// </summary>
     internal class Game
     {
         public static bool Playing { get; set; }

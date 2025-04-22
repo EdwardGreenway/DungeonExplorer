@@ -9,6 +9,10 @@ namespace DungeonExplorer
 {
     internal class Program
     {
+        /// <summary>
+        /// This class serves as the access point for the program
+        /// Its only purpose is to start the game class
+        /// </summary>
         static void Main(string[] args)
         {
             Game.Start();

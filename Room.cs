@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace DungeonExplorer
 {
+    /// <summary>
+    /// This is the room class, containing the properties necessary for the game's rooms
+    /// </summary>
     public class Room
     {
         public string Name { get; }

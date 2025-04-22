@@ -8,6 +8,10 @@ using System.Threading.Tasks;
 
 namespace DungeonExplorer
 {
+    /// <summary>
+    /// This is the monster class
+    /// It is a derivative of the creature class, containing its own unique properties and methods for fighting the player
+    /// </summary>
     public class Monster : Creature, IDamagable
     {
         public string Name { get; }

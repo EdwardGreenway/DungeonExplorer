@@ -61,7 +61,6 @@ namespace DungeonExplorer
         }
         public int HealthLimit { get; }
         public Inventory Inventory { get; set; }
-
         public Player(string name, int health, int healthLimit, Inventory inventory) : base(name, health)
         {
             this.Name = name;

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace DungeonExplorer
 {
     /// <summary>
-    /// This interface contains the methods used in the inventory class
+    /// This interface contains the methods used for collecting and managing items, all seen within the inventory class
     /// </summary>
     interface ICollect
     {   

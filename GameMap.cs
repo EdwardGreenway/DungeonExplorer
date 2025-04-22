@@ -9,6 +9,10 @@ using static DungeonExplorer.RoomCatalogue;
 
 namespace MapTesting
 {
+    /// <summary>
+    /// This is the GameMap class
+    /// It contains the properties and methods that will be required for the player to progress through the rooms that will be generated
+    /// </summary>
     internal class GameMap
     {
         public int Difficulty {  get; set; }

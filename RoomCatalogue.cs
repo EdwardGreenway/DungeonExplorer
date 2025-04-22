@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace DungeonExplorer
 {
+    /// <summary>
+    /// This class contains the rooms that the player can encounter when they are exploring the game map
+    /// </summary>
     public class RoomCatalogue
     {
-        /// <summary>
-        /// 
-        /// </summary>
         public static Room[] Difficulty_1_Rooms { get; }
         public static Room[] Difficulty_2_Rooms { get; }
         public static Room[] Difficulty_3_Rooms { get; }

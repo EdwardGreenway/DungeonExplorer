@@ -12,13 +12,10 @@ using System.Threading.Tasks;
 namespace DungeonExplorer
 {
     /// <summary>
-    /// This class stores the 
+    /// This class stores the monsters the player can encounter when they are exploring the dungeon
     /// </summary>
     public class MonsterCatalogue
     {
-        /// <summary>
-        /// 
-        /// </summary>
 
         public static Monster[] Difficuly_1_Monsters { get; }
         public static Monster[] Difficuly_2_Monsters { get; }
@@ -27,9 +24,6 @@ namespace DungeonExplorer
 
         static MonsterCatalogue()
         {
-            /// <summary>
-            /// 
-            /// </summary>
 
             List<Monster> monsters = new List<Monster>();
 
