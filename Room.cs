@@ -1,17 +1,24 @@
-﻿namespace DungeonExplorer
+﻿using DungeonExplorer;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DungeonExplorer
 {
+    /// <summary>
+    /// This is the room class, containing the properties necessary for the game's rooms
+    /// </summary>
     public class Room
     {
-        private string description;
+        public string Name { get; }
+        public int Difficulty { get; }
 
-        public Room(string description)
+        public Room(string name, int difficulty)
         {
-            this.description = description;
-        }
-
-        public string GetDescription()
-        {
-            return description;
+            this.Name = name;
+            this.Difficulty = difficulty;       
         }
     }
 }

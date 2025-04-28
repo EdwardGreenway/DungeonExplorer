@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DungeonExplorer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,13 +9,13 @@ namespace DungeonExplorer
 {
     internal class Program
     {
+        /// <summary>
+        /// This class serves as the access point for the program
+        /// Its only purpose is to start the game class
+        /// </summary>
         static void Main(string[] args)
         {
-            Game game = new Game();
-            game.Start();
-            Console.WriteLine("Waiting for your Implementation");
-            Console.WriteLine("Press any key to exit...");
-            Console.ReadKey();
+            Game.Start();
         }
     }
 }
