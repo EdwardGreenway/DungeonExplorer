@@ -5,9 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dungeon_Explorer
+namespace DungeonExplorer
 {
-    internal class Zesting
+
+    internal class Testing
     {
         public static void TestConditions(bool condition, string errorMessage)
         {
